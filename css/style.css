@@ -1,0 +1,209 @@
+body {
+  background-color: #5c48d2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 48px;
+  color: white;
+  line-height: 200px;
+  text-align: center;
+}
+h2,
+h3 {
+  font-weight: bold;
+  color: #190f33;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+h3 {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+p {
+  line-height: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+main {
+  width: 70%;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+  height: 100px;
+  display: flex;
+}
+nav a {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #190f33;
+  font-size: 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #5c48d2;
+}
+
+section {
+  padding: 100px;
+}
+
+#formation,
+#contact {
+  background-color: #eeeef7;
+}
+
+/* A propos de moi */
+.informations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.informations img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: #fcc 2 px solid;
+  margin-right: 80px;
+  margin-bottom: 100px;
+}
+
+.name,
+.city {
+  color: #190f33;
+}
+
+.name {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.city {
+  font-size: 30px;
+  font-style: italic;
+}
+/* Formation */
+#formation p {
+  text-align: center;
+}
+
+#formation img {
+  height: 100px;
+}
+#formation div {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+}
+.forma h4 {
+  margin-left: 40px;
+}
+span {
+  font-weight: bold;
+}
+
+/* Projet */
+#projets p {
+  text-align: center;
+}
+.projet {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projet img {
+  width: 500px;
+  margin-right: 60px;
+}
+
+#projets li {
+  line-height: 30px;
+}
+
+#projets ul {
+  list-style-type: disc;
+}
+
+/* Contact */
+#contact div {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #eeeef7;
+}
+#contact {
+  border-radius: 0 0 20px 20px;
+}
+#contact img {
+  height: 30px;
+  margin-right: 20px;
+}
+#contact a {
+  color: black;
+  text-decoration: none;
+}
+#contact a:hover {
+  color: #5c48d2;
+}
+
+footer {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer p {
+  color: #c4c4c4;
+  line-height: 40px;
+}
+
+footer a {
+  line-height: 40px;
+  color: #fcc;
+}
+
+footer a:hover {
+  color: #190f33;
+  text-decoration: none;
+}
+
+
+
+/*///////////////////////*/
+
+.d-flex{
+  display: flex;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+
+.flyers{
+  height: 550px;
+}
